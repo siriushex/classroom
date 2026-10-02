@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "assignment_scope": "exact_instructions_only",
+  "preserve_questions": true,
+  "copy_when_read_only": true,
+  "separate_document_per_assignment_when_needed": true,
+  "text": {
+    "language": "assignment_language",
+    "ukrainian_register": "literary",
+    "student_age": 15,
+    "style_reference_year": 2025,
+    "answer_position": "directly_below_question",
+    "answer_label": null,
+    "answers_heading": false,
+    "table_selection_marker": "+",
+    "century_notation": "roman",
+    "em_dash": false,
+    "preserve_required_hyphens": true
+  },
+  "typing": {
+    "preferred_method": "python_one_character_at_a_time",
+    "helper": "skills/print/scripts/type_text.py",
+    "check_final_text_before_typing": true,
+    "confirm_destination_and_text": true,
+    "verify_after_each_answer": true,
+    "current_user_instruction_overrides_method": true
+  },
+  "screenshots": {
+    "directory": "~/Downloads",
+    "filename_pattern": "test{n}.png",
+    "first_index": 1,
+    "overwrite": false,
+    "attach_to_classroom": false
+  },
+  "submission": {
+    "default": "prepare_without_submitting",
+    "explicit_user_authorization_required": true,
+    "respect_active_tool_confirmation_policy": true,
+    "verify_visible_final_status": true
+  },
+  "sharing": {
+    "teacher_email": null,
+    "invitation_requires_explicit_authorization": true,
+    "verify_effective_role": true
+  }
+}

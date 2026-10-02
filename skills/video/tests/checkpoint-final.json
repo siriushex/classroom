@@ -1,0 +1,57 @@
+{
+  "phase": "done",
+  "facts": {
+    "skill": "/Users/mac/.agents/skills/video/SKILL.md",
+    "tests": "13 integration tests passed; motion track checks passed",
+    "scope": "Personal skill only. No game, Git or server edits."
+  },
+  "completed": [
+    "Created skill, direction and QC modules, reference catalog, templates and CLI",
+    "Validated real and synthetic media and documented limits"
+  ],
+  "pending": [],
+  "blockers": [],
+  "next_step": "",
+  "evidence": [
+    {
+      "id": "skill-doc",
+      "source": "/Users/mac/.agents/skills/video/SKILL.md",
+      "observed_at": "2026-10-02T06:19:41.450832+00:00"
+    },
+    {
+      "id": "checks",
+      "source": "/Users/mac/.agents/skills/video/tests/VALIDATION.md",
+      "observed_at": "2026-10-02T06:19:41.450832+00:00"
+    },
+    {
+      "id": "real-source",
+      "source": "/Users/mac/.agents/skills/video/tests/evidence-arcade-source.json",
+      "observed_at": "2026-10-02T06:19:41.450832+00:00"
+    }
+  ],
+  "checks": [
+    {
+      "criterion": "Skill provides concrete creative direction and render quality gates",
+      "status": "passed",
+      "evidence_ids": [
+        "skill-doc"
+      ]
+    },
+    {
+      "criterion": "Quality tooling detects invalid metadata, black frames, freezes and flicker with honest limitations",
+      "status": "passed",
+      "evidence_ids": [
+        "checks",
+        "real-source"
+      ]
+    },
+    {
+      "criterion": "Local scripts and templates validated; skill path and invocation delivered",
+      "status": "passed",
+      "evidence_ids": [
+        "checks",
+        "skill-doc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-10-02T06:08:18.163747+00:00",
+  "sources": [
+    {
+      "repository": "reactvideoeditor/remotion-templates",
+      "url": "https://github.com/reactvideoeditor/remotion-templates",
+      "default_branch": "main",
+      "license_spdx": null,
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    },
+    {
+      "repository": "tamagossi/react-remotion-presets",
+      "url": "https://github.com/tamagossi/react-remotion-presets",
+      "default_branch": "main",
+      "license_spdx": null,
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    },
+    {
+      "repository": "Thedurancode/locomotion-templates",
+      "url": "https://github.com/Thedurancode/locomotion-templates",
+      "default_branch": "main",
+      "license_spdx": null,
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    },
+    {
+      "repository": "yanone/fontanimation",
+      "url": "https://github.com/yanone/fontanimation",
+      "default_branch": "main",
+      "license_spdx": "Apache-2.0",
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    },
+    {
+      "repository": "motion-canvas/motion-canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas",
+      "default_branch": "main",
+      "license_spdx": "MIT",
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    },
+    {
+      "repository": "openvideodev/react-video-editor",
+      "url": "https://github.com/openvideodev/react-video-editor",
+      "default_branch": "main",
+      "license_spdx": "NOASSERTION",
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    },
+    {
+      "repository": "m333x/hygc-editor",
+      "url": "https://github.com/m333x/hygc-editor",
+      "default_branch": "main",
+      "license_spdx": "AGPL-3.0",
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    },
+    {
+      "repository": "libass/libass",
+      "url": "https://github.com/libass/libass",
+      "default_branch": "master",
+      "license_spdx": "ISC",
+      "license_verified": false,
+      "notice": "Metadata only. Inspect license at chosen commit before copying or installing."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Text"
+  short_description: "Clear Russian text for posts and Classroom"
+  default_prompt: "Use $text to revise this Russian draft while preserving facts and its intended genre."
+policy:
+  allow_implicit_invocation: true

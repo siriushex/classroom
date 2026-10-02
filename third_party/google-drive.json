@@ -1,0 +1,11 @@
+{
+  "name": "google-drive",
+  "version": "0.1.16",
+  "license": "MIT",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://workspace.google.com/products/drive/"
+}

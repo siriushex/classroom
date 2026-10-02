@@ -1,0 +1,11 @@
+{
+  "name": "pdf",
+  "version": "26.904.11930",
+  "license": "MIT",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://openai.com/"
+}

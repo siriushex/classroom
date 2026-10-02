@@ -1,0 +1,29 @@
+{
+  "language": "ru",
+  "brand": {
+    "ru": "Шахматная Аркада",
+    "en": "Chess Arcade"
+  },
+  "duration": 30,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "audio": "absent",
+  "text": false,
+  "safe_area": [
+    120,
+    120,
+    260,
+    84
+  ],
+  "safe_area_note": "Starting layout margins, not verified platform requirements; adapt to the real UI.",
+  "forbidden_strings": [
+    "Chess Arcade",
+    "ChessArcade",
+    "CHESSARCADE"
+  ],
+  "text_blocks": [],
+  "cuts": [],
+  "intentional_holds": [],
+  "intentional_black": []
+}

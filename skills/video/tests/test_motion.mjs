@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {valueAt,entranceHoldExit} from '../templates/motion-track.mjs';
+assert.equal(valueAt(entranceHoldExit,-1),80);
+assert.equal(valueAt(entranceHoldExit,.35),0);
+assert.equal(valueAt(entranceHoldExit,1),0);
+assert.equal(valueAt(entranceHoldExit,2),-60);
+assert.equal(valueAt(entranceHoldExit,4),-60);
+for(const rate of [30,60]) for(let f=0;f<=rate*2;f++) assert.ok(Number.isFinite(valueAt(entranceHoldExit,f/rate)));
+assert.ok(Math.abs(valueAt(entranceHoldExit,.35-1e-5))<1e-6);
+assert.ok(Math.abs(valueAt(entranceHoldExit,1.6+1e-5))<1e-6);
+assert.throws(()=>valueAt([{time:0,value:1},{time:0,value:2}],.5));
+assert.throws(()=>valueAt([],0));
+console.log('Motion template: boundaries, hold, continuity and 30/60fps checks passed');

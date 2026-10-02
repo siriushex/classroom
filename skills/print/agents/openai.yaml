@@ -1,0 +1,6 @@
+interface:
+  display_name: "Print"
+  short_description: "Type approved text into the active macOS app"
+  default_prompt: "Use $print to type this approved text character by character into the focused field."
+policy:
+  allow_implicit_invocation: false

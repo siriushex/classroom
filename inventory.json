@@ -1,0 +1,1442 @@
+{
+  "snapshot_date": "2026-10-02",
+  "skills": [
+    {
+      "name": "text",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "print",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "humanizer",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "humanizer-ru",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "gog",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "transcribe",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "speech",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "imagegen",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "pdf",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "playwright",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "playwright-interactive",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "skill-state",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "video",
+      "source_kind": "local",
+      "source_version": null
+    },
+    {
+      "name": "presentations",
+      "source_kind": "plugin",
+      "source_version": "26.904.11930"
+    },
+    {
+      "name": "pdf-runtime",
+      "source_kind": "plugin",
+      "source_version": "26.904.11930"
+    },
+    {
+      "name": "spreadsheets",
+      "source_kind": "plugin",
+      "source_version": "26.904.11930"
+    },
+    {
+      "name": "youtube-conversation",
+      "source_kind": "plugin",
+      "source_version": "0.2.18"
+    },
+    {
+      "name": "google-docs",
+      "source_kind": "plugin",
+      "source_version": "0.1.16"
+    },
+    {
+      "name": "google-drive",
+      "source_kind": "plugin",
+      "source_version": "0.1.16"
+    },
+    {
+      "name": "google-drive-comments",
+      "source_kind": "plugin",
+      "source_version": "0.1.16"
+    },
+    {
+      "name": "google-sheets",
+      "source_kind": "plugin",
+      "source_version": "0.1.16"
+    },
+    {
+      "name": "google-slides",
+      "source_kind": "plugin",
+      "source_version": "0.1.16"
+    },
+    {
+      "name": "classroom-workflow",
+      "source_kind": "new_user_rules",
+      "source_version": null
+    }
+  ],
+  "files": [
+    {
+      "path": "skills/text/SKILL.md",
+      "source_sha256": "2748f8fdd810184d01bebcb7bfc6976c4a68eec12b27168617b8a85c6afb7e90",
+      "export_sha256": "a5cf2b08229cc02434f836460fabc05296495c69c01d9332e95214023e8f61f8"
+    },
+    {
+      "path": "skills/text/agents/openai.yaml",
+      "source_sha256": "903cfc662c633afec90649a089cf32205dcb98deeaba6d946b57492d89378bd6",
+      "export_sha256": "903cfc662c633afec90649a089cf32205dcb98deeaba6d946b57492d89378bd6"
+    },
+    {
+      "path": "skills/print/SKILL.md",
+      "source_sha256": "943ebb58b519f7cb1e6003d0d9b4d650e2ee21ce30352462fb40ad7f52b4bec0",
+      "export_sha256": "6e190d529d13e2feb99725708eecaeeeecd2fe72130755a308dadd2ba55d6347"
+    },
+    {
+      "path": "skills/print/agents/openai.yaml",
+      "source_sha256": "9b9e11e26609d0535df6338caa48bee4d88f469aef18871ea6e94fb47515f523",
+      "export_sha256": "9b9e11e26609d0535df6338caa48bee4d88f469aef18871ea6e94fb47515f523"
+    },
+    {
+      "path": "skills/print/scripts/type_text.py",
+      "source_sha256": "2793163cce6c6b7936dfd8fb60ca5947874f241f243f877fbe8ba8142901061d",
+      "export_sha256": "2793163cce6c6b7936dfd8fb60ca5947874f241f243f877fbe8ba8142901061d"
+    },
+    {
+      "path": "skills/print/tests/test_type_text.py",
+      "source_sha256": "7f9bcc70cbf6b42258c67d766f146bb011160249bf30d76794a97cc95155c451",
+      "export_sha256": "8c4fabfa6dbe20d3f1de2c19529e3437b2850630fe83fe2bc530655378742df1"
+    },
+    {
+      "path": "skills/humanizer/README.md",
+      "source_sha256": "1784f9fa300977c99ae2cc68743206b421152e02c0b777dd149020a04826b927",
+      "export_sha256": "1784f9fa300977c99ae2cc68743206b421152e02c0b777dd149020a04826b927"
+    },
+    {
+      "path": "skills/humanizer/SKILL.md",
+      "source_sha256": "b7519d3ada4fda855c991cf51d3139f917a861e345c6d23b135e3ada8c4fe069",
+      "export_sha256": "b7519d3ada4fda855c991cf51d3139f917a861e345c6d23b135e3ada8c4fe069"
+    },
+    {
+      "path": "skills/humanizer/WARP.md",
+      "source_sha256": "d095774e16b970d4ed8f421a3590df664525c859a877ea0c58e7bdeeecabdae2",
+      "export_sha256": "d095774e16b970d4ed8f421a3590df664525c859a877ea0c58e7bdeeecabdae2"
+    },
+    {
+      "path": "skills/humanizer-ru/CHANGELOG.md",
+      "source_sha256": "89e69adf05e681107b8d342fdb660655dbdcb6ae66bdd19c091f59529668c90b",
+      "export_sha256": "89e69adf05e681107b8d342fdb660655dbdcb6ae66bdd19c091f59529668c90b"
+    },
+    {
+      "path": "skills/humanizer-ru/LICENSE",
+      "source_sha256": "27cd410525efac04b5fc0706333cbf92fcc7cefc246d5be33a3e1c77ace71205",
+      "export_sha256": "27cd410525efac04b5fc0706333cbf92fcc7cefc246d5be33a3e1c77ace71205"
+    },
+    {
+      "path": "skills/humanizer-ru/README.md",
+      "source_sha256": "5a53b7a2b874a89b07e47c18dc0fdc7c8684f94ffd55cc851c10e32bde151844",
+      "export_sha256": "5a53b7a2b874a89b07e47c18dc0fdc7c8684f94ffd55cc851c10e32bde151844"
+    },
+    {
+      "path": "skills/humanizer-ru/SKILL.md",
+      "source_sha256": "9a0f23ac56c44b238a6f077b5099a41ff48c5a17edff07a14f0109df598dec4a",
+      "export_sha256": "9a0f23ac56c44b238a6f077b5099a41ff48c5a17edff07a14f0109df598dec4a"
+    },
+    {
+      "path": "skills/humanizer-ru/banner.webp",
+      "source_sha256": "1bd36789c5e26df08e2431af3fa387c50567d231277e863bae5cafb092e247f4",
+      "export_sha256": "1bd36789c5e26df08e2431af3fa387c50567d231277e863bae5cafb092e247f4"
+    },
+    {
+      "path": "skills/humanizer-ru/evals/evals.json",
+      "source_sha256": "1d06309150a756a3b54bdb896b5ae5fabcdf5494ac74a172a25c7f20e6f84668",
+      "export_sha256": "1d06309150a756a3b54bdb896b5ae5fabcdf5494ac74a172a25c7f20e6f84668"
+    },
+    {
+      "path": "skills/humanizer-ru/knowledge/corrections.md",
+      "source_sha256": "958159a6318fa713148ac416228b56d1caf9d389777682f886bb834745f8d65c",
+      "export_sha256": "958159a6318fa713148ac416228b56d1caf9d389777682f886bb834745f8d65c"
+    },
+    {
+      "path": "skills/humanizer-ru/references/patterns.md",
+      "source_sha256": "57c53c46b9198e4d77a28a53cd64c8ae3bf031932d0ee405f2461f69a5c9d072",
+      "export_sha256": "57c53c46b9198e4d77a28a53cd64c8ae3bf031932d0ee405f2461f69a5c9d072"
+    },
+    {
+      "path": "skills/humanizer-ru/scripts/lint.py",
+      "source_sha256": "35beeb08660e5a73d609a582f21d207186ec7357f9d9fc62865a8c620e31488e",
+      "export_sha256": "35beeb08660e5a73d609a582f21d207186ec7357f9d9fc62865a8c620e31488e"
+    },
+    {
+      "path": "skills/gog/SKILL.md",
+      "source_sha256": "ceb5ee5bb4f0b9016694ed709180399fc75214b7b91a958e1aae1e1a351cb0b6",
+      "export_sha256": "ceb5ee5bb4f0b9016694ed709180399fc75214b7b91a958e1aae1e1a351cb0b6"
+    },
+    {
+      "path": "skills/transcribe/LICENSE.txt",
+      "source_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "export_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    {
+      "path": "skills/transcribe/SKILL.md",
+      "source_sha256": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09",
+      "export_sha256": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09"
+    },
+    {
+      "path": "skills/transcribe/agents/openai.yaml",
+      "source_sha256": "fe7a20b9c03ce027e2f3023a4fd363c2d958ceeae1b7daaef77d1f6d055d97a4",
+      "export_sha256": "fe7a20b9c03ce027e2f3023a4fd363c2d958ceeae1b7daaef77d1f6d055d97a4"
+    },
+    {
+      "path": "skills/transcribe/assets/transcribe-small.svg",
+      "source_sha256": "7d67890abf0f145a77f5fb87752bb6337b394fd4e26f5969c57d82d40e369a14",
+      "export_sha256": "7d67890abf0f145a77f5fb87752bb6337b394fd4e26f5969c57d82d40e369a14"
+    },
+    {
+      "path": "skills/transcribe/assets/transcribe.png",
+      "source_sha256": "0860df58af6b9e58f4445a81baca7bfd94029a447742ae9b9e896e7c5b748688",
+      "export_sha256": "0860df58af6b9e58f4445a81baca7bfd94029a447742ae9b9e896e7c5b748688"
+    },
+    {
+      "path": "skills/transcribe/references/api.md",
+      "source_sha256": "a2bf7e59d69aa127b176255c5c01afbafda4e3029b12b4413e75074233ffb36d",
+      "export_sha256": "a2bf7e59d69aa127b176255c5c01afbafda4e3029b12b4413e75074233ffb36d"
+    },
+    {
+      "path": "skills/transcribe/scripts/transcribe_diarize.py",
+      "source_sha256": "d623b1fed1491b7ca4b7b5b393089165e3581a83d90d5a57868241f1b2a5d951",
+      "export_sha256": "d623b1fed1491b7ca4b7b5b393089165e3581a83d90d5a57868241f1b2a5d951"
+    },
+    {
+      "path": "skills/speech/LICENSE.txt",
+      "source_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "export_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    {
+      "path": "skills/speech/SKILL.md",
+      "source_sha256": "d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52",
+      "export_sha256": "d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52"
+    },
+    {
+      "path": "skills/speech/agents/openai.yaml",
+      "source_sha256": "1a152d9e7e66b86100db33b8e6ff3327955bf107bb9e77044a1ad6dfb10d6e18",
+      "export_sha256": "1a152d9e7e66b86100db33b8e6ff3327955bf107bb9e77044a1ad6dfb10d6e18"
+    },
+    {
+      "path": "skills/speech/assets/speech-small.svg",
+      "source_sha256": "b879fe9fc476f183e1c9bfd0e2883b8b2c28c708ca3d90f409bed051fe6a173e",
+      "export_sha256": "b879fe9fc476f183e1c9bfd0e2883b8b2c28c708ca3d90f409bed051fe6a173e"
+    },
+    {
+      "path": "skills/speech/assets/speech.png",
+      "source_sha256": "b5abb383bba63a309f73a4da1060b50b6c92b1b5f974f44b8f609b3da10112f9",
+      "export_sha256": "b5abb383bba63a309f73a4da1060b50b6c92b1b5f974f44b8f609b3da10112f9"
+    },
+    {
+      "path": "skills/speech/references/accessibility.md",
+      "source_sha256": "34cd91bc6a3ef65c8da8997e312d163babcdfc3241f9e359418b3f5a76f15b76",
+      "export_sha256": "34cd91bc6a3ef65c8da8997e312d163babcdfc3241f9e359418b3f5a76f15b76"
+    },
+    {
+      "path": "skills/speech/references/audio-api.md",
+      "source_sha256": "dba58cfc0d5e125cf1ac13875193950233aa948639b268ed7799ca17bca66bfe",
+      "export_sha256": "dba58cfc0d5e125cf1ac13875193950233aa948639b268ed7799ca17bca66bfe"
+    },
+    {
+      "path": "skills/speech/references/cli.md",
+      "source_sha256": "77e6a0c01036ac0092cf37c3d5c88dc6800b223524c5b9c8920d10fc4f68e0cc",
+      "export_sha256": "77e6a0c01036ac0092cf37c3d5c88dc6800b223524c5b9c8920d10fc4f68e0cc"
+    },
+    {
+      "path": "skills/speech/references/codex-network.md",
+      "source_sha256": "c956a51d3e67246cfb43982aa8c82065350fcce4ef7b94bd89e599c575c94d9c",
+      "export_sha256": "c956a51d3e67246cfb43982aa8c82065350fcce4ef7b94bd89e599c575c94d9c"
+    },
+    {
+      "path": "skills/speech/references/ivr.md",
+      "source_sha256": "2aaf225b7cea9277fe5413eb0360a845de035c00ea0d6f30348b5ce7138803fc",
+      "export_sha256": "2aaf225b7cea9277fe5413eb0360a845de035c00ea0d6f30348b5ce7138803fc"
+    },
+    {
+      "path": "skills/speech/references/narration.md",
+      "source_sha256": "3e68829fe4a5a47c3d37cbe9a1ed95ff3cedf1b303ff02a10501e56ad5e7c74a",
+      "export_sha256": "3e68829fe4a5a47c3d37cbe9a1ed95ff3cedf1b303ff02a10501e56ad5e7c74a"
+    },
+    {
+      "path": "skills/speech/references/prompting.md",
+      "source_sha256": "2adcb001813be04e56918eb0d34d9a45f9326aa0fb240526ae74a926522b6554",
+      "export_sha256": "2adcb001813be04e56918eb0d34d9a45f9326aa0fb240526ae74a926522b6554"
+    },
+    {
+      "path": "skills/speech/references/sample-prompts.md",
+      "source_sha256": "c14e1b1c526f2fe555ab2dc86c0e8aead33d38238d2bfcfbf9de0c18d28bde03",
+      "export_sha256": "c14e1b1c526f2fe555ab2dc86c0e8aead33d38238d2bfcfbf9de0c18d28bde03"
+    },
+    {
+      "path": "skills/speech/references/voice-directions.md",
+      "source_sha256": "5da0a4c59bdadb47d1795f51a9708b515fbf2901f0ca808cc5c66d83a336986d",
+      "export_sha256": "5da0a4c59bdadb47d1795f51a9708b515fbf2901f0ca808cc5c66d83a336986d"
+    },
+    {
+      "path": "skills/speech/references/voiceover.md",
+      "source_sha256": "a4bb96c31c8be6a62d35a103f9d7fc700b8004df2efd10595d00b63f0c096486",
+      "export_sha256": "a4bb96c31c8be6a62d35a103f9d7fc700b8004df2efd10595d00b63f0c096486"
+    },
+    {
+      "path": "skills/speech/scripts/text_to_speech.py",
+      "source_sha256": "0000014efdf1194512c017ffa0d0574ae65881f6a1340b7ed822053b6e3d3c44",
+      "export_sha256": "0000014efdf1194512c017ffa0d0574ae65881f6a1340b7ed822053b6e3d3c44"
+    },
+    {
+      "path": "skills/imagegen/LICENSE.txt",
+      "source_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "export_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    {
+      "path": "skills/imagegen/SKILL.md",
+      "source_sha256": "4da06e7a1fbfaa94154dda2699e449a1f6d79e6e4299fcfeb785aad7c87f59dc",
+      "export_sha256": "4da06e7a1fbfaa94154dda2699e449a1f6d79e6e4299fcfeb785aad7c87f59dc"
+    },
+    {
+      "path": "skills/imagegen/agents/openai.yaml",
+      "source_sha256": "051b82cce281829f36caaeacb676af013d45c5429fd824ec0eac5dcee07352fa",
+      "export_sha256": "051b82cce281829f36caaeacb676af013d45c5429fd824ec0eac5dcee07352fa"
+    },
+    {
+      "path": "skills/imagegen/assets/imagegen-small.svg",
+      "source_sha256": "cff5f34f57ff60b3ee92eaedd17b15e96dd4b9e776df3e78936c9e00d42be294",
+      "export_sha256": "cff5f34f57ff60b3ee92eaedd17b15e96dd4b9e776df3e78936c9e00d42be294"
+    },
+    {
+      "path": "skills/imagegen/assets/imagegen.png",
+      "source_sha256": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20",
+      "export_sha256": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20"
+    },
+    {
+      "path": "skills/imagegen/references/cli.md",
+      "source_sha256": "c548d8897fb3df3c0a0d39b42cdd7a08247706696cbedda9f1b36cb7bbf60ab7",
+      "export_sha256": "c548d8897fb3df3c0a0d39b42cdd7a08247706696cbedda9f1b36cb7bbf60ab7"
+    },
+    {
+      "path": "skills/imagegen/references/codex-network.md",
+      "source_sha256": "e0392ea43bdc6fa075ff8f842a999840e05ab025be3c217dc58791000efa5b18",
+      "export_sha256": "e0392ea43bdc6fa075ff8f842a999840e05ab025be3c217dc58791000efa5b18"
+    },
+    {
+      "path": "skills/imagegen/references/image-api.md",
+      "source_sha256": "a31b576864fb7ab43e3191e039a24a19cdd85d2804e44c38a822f2ed1f4f78c3",
+      "export_sha256": "a31b576864fb7ab43e3191e039a24a19cdd85d2804e44c38a822f2ed1f4f78c3"
+    },
+    {
+      "path": "skills/imagegen/references/prompting.md",
+      "source_sha256": "80383de47c15b2e0b014b95099cc95663497cb2ab8b0eac88d867fa2b5b208db",
+      "export_sha256": "80383de47c15b2e0b014b95099cc95663497cb2ab8b0eac88d867fa2b5b208db"
+    },
+    {
+      "path": "skills/imagegen/references/sample-prompts.md",
+      "source_sha256": "be54f1ced28a7ac1d68670eb2d560d1491d7e0efe38972d9ba3309110f7d45e4",
+      "export_sha256": "be54f1ced28a7ac1d68670eb2d560d1491d7e0efe38972d9ba3309110f7d45e4"
+    },
+    {
+      "path": "skills/imagegen/scripts/image_gen.py",
+      "source_sha256": "f30607f1f5ee10d6d62f5fb2e28a128791e280ca7f369f9c98b1809bd2a4962a",
+      "export_sha256": "f30607f1f5ee10d6d62f5fb2e28a128791e280ca7f369f9c98b1809bd2a4962a"
+    },
+    {
+      "path": "skills/pdf/LICENSE.txt",
+      "source_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "export_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    {
+      "path": "skills/pdf/SKILL.md",
+      "source_sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "export_sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2"
+    },
+    {
+      "path": "skills/pdf/agents/openai.yaml",
+      "source_sha256": "f8b223e25343559f57e1839ccd849fd1494a9729da33da04bb5074b7f80f4887",
+      "export_sha256": "f8b223e25343559f57e1839ccd849fd1494a9729da33da04bb5074b7f80f4887"
+    },
+    {
+      "path": "skills/pdf/assets/pdf.png",
+      "source_sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee",
+      "export_sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee"
+    },
+    {
+      "path": "skills/playwright/LICENSE.txt",
+      "source_sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "export_sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda"
+    },
+    {
+      "path": "skills/playwright/NOTICE.txt",
+      "source_sha256": "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b",
+      "export_sha256": "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b"
+    },
+    {
+      "path": "skills/playwright/SKILL.md",
+      "source_sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8",
+      "export_sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8"
+    },
+    {
+      "path": "skills/playwright/agents/openai.yaml",
+      "source_sha256": "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230",
+      "export_sha256": "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230"
+    },
+    {
+      "path": "skills/playwright/assets/playwright-small.svg",
+      "source_sha256": "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732",
+      "export_sha256": "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732"
+    },
+    {
+      "path": "skills/playwright/assets/playwright.png",
+      "source_sha256": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+      "export_sha256": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381"
+    },
+    {
+      "path": "skills/playwright/references/cli.md",
+      "source_sha256": "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900",
+      "export_sha256": "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900"
+    },
+    {
+      "path": "skills/playwright/references/workflows.md",
+      "source_sha256": "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2",
+      "export_sha256": "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2"
+    },
+    {
+      "path": "skills/playwright/scripts/playwright_cli.sh",
+      "source_sha256": "aa3fdff5d0e4556177f4dfd5f04117e772aa54f94b6a2e34b6c0edf629c6b9b5",
+      "export_sha256": "aa3fdff5d0e4556177f4dfd5f04117e772aa54f94b6a2e34b6c0edf629c6b9b5"
+    },
+    {
+      "path": "skills/playwright-interactive/LICENSE.txt",
+      "source_sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "export_sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda"
+    },
+    {
+      "path": "skills/playwright-interactive/NOTICE.txt",
+      "source_sha256": "7fe676d2e5359fb6aa0bdf5b0881b26e14c272dd36b04408366d4b0e26738322",
+      "export_sha256": "7fe676d2e5359fb6aa0bdf5b0881b26e14c272dd36b04408366d4b0e26738322"
+    },
+    {
+      "path": "skills/playwright-interactive/SKILL.md",
+      "source_sha256": "f6c1155d923e6ae3ccc12abfef2266f119f8e9546df2ddeee1f5eb369845a0a1",
+      "export_sha256": "f6c1155d923e6ae3ccc12abfef2266f119f8e9546df2ddeee1f5eb369845a0a1"
+    },
+    {
+      "path": "skills/playwright-interactive/agents/openai.yaml",
+      "source_sha256": "7342e0a2c2cb8f3e20982317467f58b06c8bf71ba308ed8fcc1cda4a6e9397d8",
+      "export_sha256": "7342e0a2c2cb8f3e20982317467f58b06c8bf71ba308ed8fcc1cda4a6e9397d8"
+    },
+    {
+      "path": "skills/playwright-interactive/assets/playwright-small.svg",
+      "source_sha256": "0744d0d4cc1433e2130c3522196e1571222d502f1461f39274f680520e728588",
+      "export_sha256": "0744d0d4cc1433e2130c3522196e1571222d502f1461f39274f680520e728588"
+    },
+    {
+      "path": "skills/playwright-interactive/assets/playwright.png",
+      "source_sha256": "29b51cdeeb4e541565d1d419e5150e11913af50f72ebb4d27cfcc8813185ffd6",
+      "export_sha256": "29b51cdeeb4e541565d1d419e5150e11913af50f72ebb4d27cfcc8813185ffd6"
+    },
+    {
+      "path": "skills/skill-state/SKILL.md",
+      "source_sha256": "4ec5090fcd9b095ad7fba35149ea8537184626fe1c60b97da8bbf2d85cc29f82",
+      "export_sha256": "4ec5090fcd9b095ad7fba35149ea8537184626fe1c60b97da8bbf2d85cc29f82"
+    },
+    {
+      "path": "skills/skill-state/agents/openai.yaml",
+      "source_sha256": "a44e43f9f20a3d398845568a87de3b01eec14159b7b2255cb485a31f382eee83",
+      "export_sha256": "a44e43f9f20a3d398845568a87de3b01eec14159b7b2255cb485a31f382eee83"
+    },
+    {
+      "path": "skills/skill-state/references/checkpoints.md",
+      "source_sha256": "a6a479587423e32ad114c1fe845e7589433c8cd89f542be739fb04d7242c0caa",
+      "export_sha256": "a6a479587423e32ad114c1fe845e7589433c8cd89f542be739fb04d7242c0caa"
+    },
+    {
+      "path": "skills/skill-state/references/external-runtime.md",
+      "source_sha256": "3dd59d29f69948af76be2daf589fd090e43c161fa7125c917070f2c972084536",
+      "export_sha256": "3dd59d29f69948af76be2daf589fd090e43c161fa7125c917070f2c972084536"
+    },
+    {
+      "path": "skills/skill-state/scripts/checkpoint.py",
+      "source_sha256": "112774591eea3f53a8853fdb472ebf584bcfe7a991f30f5828cf63813ab0245b",
+      "export_sha256": "112774591eea3f53a8853fdb472ebf584bcfe7a991f30f5828cf63813ab0245b"
+    },
+    {
+      "path": "skills/video/SKILL.md",
+      "source_sha256": "c1a07e89d5ae5b8433fd37ed88a50af212adbe87d1a23ec219e1b92fb6b55469",
+      "export_sha256": "c1a07e89d5ae5b8433fd37ed88a50af212adbe87d1a23ec219e1b92fb6b55469"
+    },
+    {
+      "path": "skills/video/references/direction.md",
+      "source_sha256": "12606e2f5d29d21d8038059a47f03bc819e330852823e3385b05a13c2de6a409",
+      "export_sha256": "12606e2f5d29d21d8038059a47f03bc819e330852823e3385b05a13c2de6a409"
+    },
+    {
+      "path": "skills/video/references/libraries.md",
+      "source_sha256": "dd2b174390530ee68feedbbe93ecb948340316218cdf300e98d58a31be437460",
+      "export_sha256": "dd2b174390530ee68feedbbe93ecb948340316218cdf300e98d58a31be437460"
+    },
+    {
+      "path": "skills/video/references/qc.md",
+      "source_sha256": "2ce796ad96685b847294dcbec56aab5162ad0f06e8c2b54280a5ab475e59515c",
+      "export_sha256": "2ce796ad96685b847294dcbec56aab5162ad0f06e8c2b54280a5ab475e59515c"
+    },
+    {
+      "path": "skills/video/references/reference-catalog.json",
+      "source_sha256": "1b89bce62acccb7b9feee8718e524fb1d38a4a3033480db116838ed9b32947e2",
+      "export_sha256": "1b89bce62acccb7b9feee8718e524fb1d38a4a3033480db116838ed9b32947e2"
+    },
+    {
+      "path": "skills/video/scripts/video_qc.py",
+      "source_sha256": "ef8f9a53c8d08701bab08873af27591061516f3f220c4aa7c109cbdc096383c4",
+      "export_sha256": "ef8f9a53c8d08701bab08873af27591061516f3f220c4aa7c109cbdc096383c4"
+    },
+    {
+      "path": "skills/video/templates/brief.md",
+      "source_sha256": "f289ae9dc5d4ed78fd556dd51d712fe92c639d2e5c87acb760aa63c91f8df487",
+      "export_sha256": "f289ae9dc5d4ed78fd556dd51d712fe92c639d2e5c87acb760aa63c91f8df487"
+    },
+    {
+      "path": "skills/video/templates/chess-plan.json",
+      "source_sha256": "f94d055cbedd6012307ce2049cdecfd1cadb62002e2895c4f05a1cee08195305",
+      "export_sha256": "f94d055cbedd6012307ce2049cdecfd1cadb62002e2895c4f05a1cee08195305"
+    },
+    {
+      "path": "skills/video/templates/motion-track.mjs",
+      "source_sha256": "5a0986b6add2e8e3cf89a10c380530038bb7a06b13e0dbb8e5e8cf41de42ee6a",
+      "export_sha256": "5a0986b6add2e8e3cf89a10c380530038bb7a06b13e0dbb8e5e8cf41de42ee6a"
+    },
+    {
+      "path": "skills/video/templates/plan.json",
+      "source_sha256": "ea6d803f731d0f9e70d827ca66e7e3bdf1ec8436009dda90ddae0c5cfb760420",
+      "export_sha256": "ea6d803f731d0f9e70d827ca66e7e3bdf1ec8436009dda90ddae0c5cfb760420"
+    },
+    {
+      "path": "skills/video/tests/SCENARIOS.md",
+      "source_sha256": "9d20bb298da83f592ff61f8d3340cc073d2d53a5e20dc9ea1cc5f9ab7f65fdb1",
+      "export_sha256": "9d20bb298da83f592ff61f8d3340cc073d2d53a5e20dc9ea1cc5f9ab7f65fdb1"
+    },
+    {
+      "path": "skills/video/tests/VALIDATION.md",
+      "source_sha256": "d3b023917ec1ff770fcccdaf191e9bfa231512884c133563a434308ac3b84ea6",
+      "export_sha256": "d3b023917ec1ff770fcccdaf191e9bfa231512884c133563a434308ac3b84ea6"
+    },
+    {
+      "path": "skills/video/tests/checkpoint-final.json",
+      "source_sha256": "cef31272e3f1d6002aafcec6cc79e94b2f12f9534be917050c763514caf97090",
+      "export_sha256": "cef31272e3f1d6002aafcec6cc79e94b2f12f9534be917050c763514caf97090"
+    },
+    {
+      "path": "skills/video/tests/evidence-arcade-source.json",
+      "source_sha256": "7c39aa63ea157ff49dc66cb1e75ab4c6ddf2e76e894051bd4b042b970c8c65fa",
+      "export_sha256": "7c39aa63ea157ff49dc66cb1e75ab4c6ddf2e76e894051bd4b042b970c8c65fa"
+    },
+    {
+      "path": "skills/video/tests/test_motion.mjs",
+      "source_sha256": "3090545b51ca2a2abd3909d716116894f60af7c897e729c0b8462f8f8d8c7247",
+      "export_sha256": "3090545b51ca2a2abd3909d716116894f60af7c897e729c0b8462f8f8d8c7247"
+    },
+    {
+      "path": "skills/video/tests/test_video_qc.py",
+      "source_sha256": "e2e856d660351230f70ce212f31781dc52643c08a3b5077b03582d3173881faf",
+      "export_sha256": "e2e856d660351230f70ce212f31781dc52643c08a3b5077b03582d3173881faf"
+    },
+    {
+      "path": "skills/presentations/SKILL.md",
+      "source_sha256": "fd3703aa1f91d386b94806a3a4061f77cdd3ea830fddfb7297243c5c9e53a5a8",
+      "export_sha256": "fd3703aa1f91d386b94806a3a4061f77cdd3ea830fddfb7297243c5c9e53a5a8"
+    },
+    {
+      "path": "skills/presentations/agents/openai.yaml",
+      "source_sha256": "13700be18c1cfbcfdf2d2439b73b5bebca744818ebfe3e634bfdf2bc14589e6f",
+      "export_sha256": "13700be18c1cfbcfdf2d2439b73b5bebca744818ebfe3e634bfdf2bc14589e6f"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/API_QUICK_START.md",
+      "source_sha256": "842d8992fea5cab418f2cf8761f3879cdae33a895df1e9519721e5d0ca72605b",
+      "export_sha256": "842d8992fea5cab418f2cf8761f3879cdae33a895df1e9519721e5d0ca72605b"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/API_DOCS.md",
+      "source_sha256": "101b31fbdc754e3027ef8f15b2e4edf5924259fea8a98a03c5628353d44f153b",
+      "export_sha256": "101b31fbdc754e3027ef8f15b2e4edf5924259fea8a98a03c5628353d44f153b"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/auto-layout.spec.md",
+      "source_sha256": "1158c8d99e36490083667300874be6c6feee53164228d89e6aa04c8f4e973d0f",
+      "export_sha256": "1158c8d99e36490083667300874be6c6feee53164228d89e6aa04c8f4e973d0f"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/charts.spec.md",
+      "source_sha256": "864d8f08c51d6c1b7c26ce6cca140c1c69f3f233c2132c45868b68d5da223461",
+      "export_sha256": "864d8f08c51d6c1b7c26ce6cca140c1c69f3f233c2132c45868b68d5da223461"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/comments.md",
+      "source_sha256": "77f912d23576761e341c2b525375b260ae7b7fba6e4eb3a98d78458a36c8a59d",
+      "export_sha256": "77f912d23576761e341c2b525375b260ae7b7fba6e4eb3a98d78458a36c8a59d"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/connectors.md",
+      "source_sha256": "58c47a02d500cecdb6b308fb87e16cc3f77eaefd8b407373a93a46e459e9ff08",
+      "export_sha256": "58c47a02d500cecdb6b308fb87e16cc3f77eaefd8b407373a93a46e459e9ff08"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/cookbook/imported-deck.md",
+      "source_sha256": "827e213edb391c88706dce1d717df061a47e46f173867d36a6b010c8487487ae",
+      "export_sha256": "827e213edb391c88706dce1d717df061a47e46f173867d36a6b010c8487487ae"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/cookbook/layout.md",
+      "source_sha256": "c415a7f976c823bc7ca82328e9f21a5a91007107777253ff9eb4c7ca8986379e",
+      "export_sha256": "c415a7f976c823bc7ca82328e9f21a5a91007107777253ff9eb4c7ca8986379e"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/fill.spec.md",
+      "source_sha256": "2ebd96d5866392e0b059d9bf116d1a4ed0c1cf73076ab1c39290fb7ff4f282af",
+      "export_sha256": "2ebd96d5866392e0b059d9bf116d1a4ed0c1cf73076ab1c39290fb7ff4f282af"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/help.md",
+      "source_sha256": "45d43b4459863c1bccf7a6c180983bc3fdd3ca00a92a8d3f126b2021f54ea18e",
+      "export_sha256": "45d43b4459863c1bccf7a6c180983bc3fdd3ca00a92a8d3f126b2021f54ea18e"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/images.spec.md",
+      "source_sha256": "1afab90f32db0b1057d4407852bff25a307d76bc78e1fa83118894b0bb82c9d7",
+      "export_sha256": "1afab90f32db0b1057d4407852bff25a307d76bc78e1fa83118894b0bb82c9d7"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/inspect.md",
+      "source_sha256": "41d577d303a1693453baf230e8a38f17f1028d3d379fdf9fa3688662808eadf1",
+      "export_sha256": "41d577d303a1693453baf230e8a38f17f1028d3d379fdf9fa3688662808eadf1"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/jsx.md",
+      "source_sha256": "44b919446e1e80017fc6465fae7ccfeef4bc261c1a9ae7ecb74416f955d8beb4",
+      "export_sha256": "44b919446e1e80017fc6465fae7ccfeef4bc261c1a9ae7ecb74416f955d8beb4"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/layout.spec.md",
+      "source_sha256": "8a255dff959b0cea02fdf96b90d60b7cf35a324f6691f492576f9f2d1004f313",
+      "export_sha256": "8a255dff959b0cea02fdf96b90d60b7cf35a324f6691f492576f9f2d1004f313"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/master.spec.md",
+      "source_sha256": "8d786bd0a851e05e4ea18570a264ceb172c4e936a4e3f6944ff87a8e3a89be4a",
+      "export_sha256": "8d786bd0a851e05e4ea18570a264ceb172c4e936a4e3f6944ff87a8e3a89be4a"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/presentation.spec.md",
+      "source_sha256": "d641988283973a5c5d7b051d5cad5d6aa23f4d681bcefd6699e6f68f2547ac4d",
+      "export_sha256": "d641988283973a5c5d7b051d5cad5d6aa23f4d681bcefd6699e6f68f2547ac4d"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/rich-text.spec.md",
+      "source_sha256": "94c4327faac99db8171f5bc5d79df1c9ba2e3c5a34fdc0bcf106cd04c1ff50e7",
+      "export_sha256": "94c4327faac99db8171f5bc5d79df1c9ba2e3c5a34fdc0bcf106cd04c1ff50e7"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/shapes.spec.md",
+      "source_sha256": "608be137e5fa769aafd236c21c5e492d246f9137193401927c829758498c3587",
+      "export_sha256": "608be137e5fa769aafd236c21c5e492d246f9137193401927c829758498c3587"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/slide.spec.md",
+      "source_sha256": "050a7f9328f8a33a386d79b2e9206be57e8547d3c0c34e82310f59003bd10cd0",
+      "export_sha256": "050a7f9328f8a33a386d79b2e9206be57e8547d3c0c34e82310f59003bd10cd0"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/speaker-notes.spec.md",
+      "source_sha256": "4a867521dab1afd93a7064dc77ad98d3f7841330aac744b9055d914abfd7d9fe",
+      "export_sha256": "4a867521dab1afd93a7064dc77ad98d3f7841330aac744b9055d914abfd7d9fe"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/styles.spec.md",
+      "source_sha256": "c27a25f32184d65466d6051256afd8e29144bc87eccc04e486fb845758518f8e",
+      "export_sha256": "c27a25f32184d65466d6051256afd8e29144bc87eccc04e486fb845758518f8e"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/tables.spec.md",
+      "source_sha256": "6566fef366936b7cff0ae42c58efd4c3297f2732f634d1e4437d418813968b83",
+      "export_sha256": "6566fef366936b7cff0ae42c58efd4c3297f2732f634d1e4437d418813968b83"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/theme.spec.md",
+      "source_sha256": "5a21a71ef053df3136e13141d5aca0a588a720f3e3e3052a62e424e87b987e30",
+      "export_sha256": "5a21a71ef053df3136e13141d5aca0a588a720f3e3e3052a62e424e87b987e30"
+    },
+    {
+      "path": "skills/presentations/artifact_tool_docs/api/references/tokens.md",
+      "source_sha256": "55326b4322f942a16d02caa79aebd60c2c97156008fd3eb69012bda327bbcc96",
+      "export_sha256": "55326b4322f942a16d02caa79aebd60c2c97156008fd3eb69012bda327bbcc96"
+    },
+    {
+      "path": "skills/presentations/assets/file-presentation.png",
+      "source_sha256": "a3c03edcadfe5af5a06c709b264d276d7e8ac6e150d69729c502459998b2a680",
+      "export_sha256": "a3c03edcadfe5af5a06c709b264d276d7e8ac6e150d69729c502459998b2a680"
+    },
+    {
+      "path": "skills/presentations/container_tools/artifact_tool_utils.mjs",
+      "source_sha256": "7f3be49b701c385ee180cad5858135297482264039f950d542c22aa9c602645d",
+      "export_sha256": "7f3be49b701c385ee180cad5858135297482264039f950d542c22aa9c602645d"
+    },
+    {
+      "path": "skills/presentations/container_tools/create_montage.py",
+      "source_sha256": "4e992386bab29f9b8b16b1705d2692f8e8b8fd27112d41e7cb56c886859711e0",
+      "export_sha256": "4e992386bab29f9b8b16b1705d2692f8e8b8fd27112d41e7cb56c886859711e0"
+    },
+    {
+      "path": "skills/presentations/container_tools/ensure_raster_image.py",
+      "source_sha256": "88a5783010907a474fb41e7bfb8d31d0056641fcf38fbc1fc60d58e3a7d0f39f",
+      "export_sha256": "88a5783010907a474fb41e7bfb8d31d0056641fcf38fbc1fc60d58e3a7d0f39f"
+    },
+    {
+      "path": "skills/presentations/container_tools/inspect_presentation_layout_geometry.py",
+      "source_sha256": "171ce664e04705abfef280bf201c7783cfe273747002b2fd04a195b7f447c4eb",
+      "export_sha256": "171ce664e04705abfef280bf201c7783cfe273747002b2fd04a195b7f447c4eb"
+    },
+    {
+      "path": "skills/presentations/container_tools/inspect_presentation_package_integrity.py",
+      "source_sha256": "0211c115805642094652fb1d464838559b95e4615d15170d22b29d4a23cc9f9f",
+      "export_sha256": "0211c115805642094652fb1d464838559b95e4615d15170d22b29d4a23cc9f9f"
+    },
+    {
+      "path": "skills/presentations/container_tools/mark_artifact_operation_started.mjs",
+      "source_sha256": "93a0b2fd9f9d6f52204a581f218f3e2d0acd4e1d404d13d91ab78a06f5a7159d",
+      "export_sha256": "93a0b2fd9f9d6f52204a581f218f3e2d0acd4e1d404d13d91ab78a06f5a7159d"
+    },
+    {
+      "path": "skills/presentations/container_tools/materialize_literal_chart_workbooks.py",
+      "source_sha256": "c29d18483e26dc61ea5ea48245f8fe2625317f5511f8e8af82506760140051da",
+      "export_sha256": "c29d18483e26dc61ea5ea48245f8fe2625317f5511f8e8af82506760140051da"
+    },
+    {
+      "path": "skills/presentations/container_tools/native_chart_title_gate.py",
+      "source_sha256": "752e88d019c5ee1618ec9ad0bcb111409f39ca4c68da571f0f29967c7773c078",
+      "export_sha256": "752e88d019c5ee1618ec9ad0bcb111409f39ca4c68da571f0f29967c7773c078"
+    },
+    {
+      "path": "skills/presentations/container_tools/native_quantitative_chart_gate.py",
+      "source_sha256": "7dde6fdda947365731cd8fbc89ede5b718c57c84e285a20af1a675fc9e27cab3",
+      "export_sha256": "7dde6fdda947365731cd8fbc89ede5b718c57c84e285a20af1a675fc9e27cab3"
+    },
+    {
+      "path": "skills/presentations/container_tools/native_table_arithmetic_gate.py",
+      "source_sha256": "de3db1596db2fea90261990e867c9713510f3133b65a7dc36269991de5783976",
+      "export_sha256": "de3db1596db2fea90261990e867c9713510f3133b65a7dc36269991de5783976"
+    },
+    {
+      "path": "skills/presentations/container_tools/rasterize_svg.mjs",
+      "source_sha256": "95e973b2750820e1c0c2a63d403bd227c8f0197ae215d0a67bff1cbe12be694a",
+      "export_sha256": "95e973b2750820e1c0c2a63d403bd227c8f0197ae215d0a67bff1cbe12be694a"
+    },
+    {
+      "path": "skills/presentations/container_tools/render_presentation.mjs",
+      "source_sha256": "edd464cd7bb79bcf7528637ae201c716f1c6b74b135d674302e77552736c38c9",
+      "export_sha256": "edd464cd7bb79bcf7528637ae201c716f1c6b74b135d674302e77552736c38c9"
+    },
+    {
+      "path": "skills/presentations/container_tools/render_slides.py",
+      "source_sha256": "ab4965cd3e7338767c83217780ed0efadc219b38f1ca7e824765400fbcf69705",
+      "export_sha256": "ab4965cd3e7338767c83217780ed0efadc219b38f1ca7e824765400fbcf69705"
+    },
+    {
+      "path": "skills/presentations/container_tools/runtime_helpers.mjs",
+      "source_sha256": "7125e9f9e4c2b1c22c2a1acc2f96cc20aadd663b37a23857280a47e6013871b9",
+      "export_sha256": "7125e9f9e4c2b1c22c2a1acc2f96cc20aadd663b37a23857280a47e6013871b9"
+    },
+    {
+      "path": "skills/presentations/container_tools/runtime_helpers.py",
+      "source_sha256": "0524d854d0518e562613590a293dd23da8c2622e08c82026b0da469752c3ceff",
+      "export_sha256": "0524d854d0518e562613590a293dd23da8c2622e08c82026b0da469752c3ceff"
+    },
+    {
+      "path": "skills/presentations/container_tools/slides_test.py",
+      "source_sha256": "f192e85ba17a9f7634908074e2149a277a30684c0e38d459f9c1d0245bfd6cc1",
+      "export_sha256": "f192e85ba17a9f7634908074e2149a277a30684c0e38d459f9c1d0245bfd6cc1"
+    },
+    {
+      "path": "skills/presentations/container_tools/template_source_fidelity_gate.py",
+      "source_sha256": "7f6b5085834ed8001862cf712589d994ddc5cbca8207cab5af52fa5ca25f91df",
+      "export_sha256": "7f6b5085834ed8001862cf712589d994ddc5cbca8207cab5af52fa5ca25f91df"
+    },
+    {
+      "path": "skills/presentations/domain_guidance/finance.md",
+      "source_sha256": "3c027850a25ca1eab480d4c93cba95d3a0fea290944d97250320449b3261677b",
+      "export_sha256": "3c027850a25ca1eab480d4c93cba95d3a0fea290944d97250320449b3261677b"
+    },
+    {
+      "path": "skills/presentations/references/cover_art_direction.md",
+      "source_sha256": "c74334268be2e7021429612df0c606b88c0b640dd7acab2c92160bf8cbe38f91",
+      "export_sha256": "c74334268be2e7021429612df0c606b88c0b640dd7acab2c92160bf8cbe38f91"
+    },
+    {
+      "path": "skills/presentations/references/finalization.md",
+      "source_sha256": "24e1dfe83c9a0373b9139f818a93683ebdc21dfff06ec6e89557488bb637b243",
+      "export_sha256": "24e1dfe83c9a0373b9139f818a93683ebdc21dfff06ec6e89557488bb637b243"
+    },
+    {
+      "path": "skills/presentations/references/implementation.md",
+      "source_sha256": "45a8c01663a4b1dad6e80e1112223b8a19529b32be5f46a47a2dbc058806f55d",
+      "export_sha256": "45a8c01663a4b1dad6e80e1112223b8a19529b32be5f46a47a2dbc058806f55d"
+    },
+    {
+      "path": "skills/presentations/references/native_bullets.md",
+      "source_sha256": "db01c76bd7edbb93f3130473cbd911d3b8f717c29817d66f5d05a7cf523d83c8",
+      "export_sha256": "db01c76bd7edbb93f3130473cbd911d3b8f717c29817d66f5d05a7cf523d83c8"
+    },
+    {
+      "path": "skills/presentations/references/native_evidence.md",
+      "source_sha256": "b200c212c97c8f933a1f16d6f9fb1e1fd91b6b77e42ff5301216a92ebe3c480d",
+      "export_sha256": "b200c212c97c8f933a1f16d6f9fb1e1fd91b6b77e42ff5301216a92ebe3c480d"
+    },
+    {
+      "path": "skills/presentations/references/template_following.md",
+      "source_sha256": "edc138c824924085041391a2118874d21f6f8d020324e2c0d934793ad023bd0a",
+      "export_sha256": "edc138c824924085041391a2118874d21f6f8d020324e2c0d934793ad023bd0a"
+    },
+    {
+      "path": "skills/presentations/routing/google_slides.md",
+      "source_sha256": "83636a3fd11959f6d6252d258e2051995a68327b29b4042d8272f8f2dda6605e",
+      "export_sha256": "83636a3fd11959f6d6252d258e2051995a68327b29b4042d8272f8f2dda6605e"
+    },
+    {
+      "path": "skills/presentations/style_guidelines.md",
+      "source_sha256": "c863ad07834e9801151c4d6cb3a2bba75c36d2d2830cfef5d94db7d30ba3dd58",
+      "export_sha256": "c863ad07834e9801151c4d6cb3a2bba75c36d2d2830cfef5d94db7d30ba3dd58"
+    },
+    {
+      "path": "skills/presentations/template_following_scripts/check_template_fidelity.mjs",
+      "source_sha256": "7dc9f198a617a456cf645ef68d3991ef2960f092f4bf995ecf629ab1fa48f8ee",
+      "export_sha256": "7dc9f198a617a456cf645ef68d3991ef2960f092f4bf995ecf629ab1fa48f8ee"
+    },
+    {
+      "path": "skills/presentations/template_following_scripts/inspect_template_deck.mjs",
+      "source_sha256": "c901e0c9d632f276293f5d86439b73fc5209f2cb6b2639b8232e0ddae946844e",
+      "export_sha256": "c901e0c9d632f276293f5d86439b73fc5209f2cb6b2639b8232e0ddae946844e"
+    },
+    {
+      "path": "skills/presentations/template_following_scripts/make_contact_sheet.py",
+      "source_sha256": "b929a3d3d27dceb14d630da33bfd6218fba2e2b0b9e4ae5a28acdd2134f38322",
+      "export_sha256": "b929a3d3d27dceb14d630da33bfd6218fba2e2b0b9e4ae5a28acdd2134f38322"
+    },
+    {
+      "path": "skills/presentations/template_following_scripts/prepare_template_starter_deck.mjs",
+      "source_sha256": "e8137b68bd2687f9de573467dac8eb5e6c1bea8099071aaaafcc9046f9e5937f",
+      "export_sha256": "e8137b68bd2687f9de573467dac8eb5e6c1bea8099071aaaafcc9046f9e5937f"
+    },
+    {
+      "path": "skills/presentations/template_following_scripts/validate_template_plan.mjs",
+      "source_sha256": "6eb67f339358247f500f92261f6bece2c6c055dd59a0ed25bc6bf00da4f0f6b1",
+      "export_sha256": "6eb67f339358247f500f92261f6bece2c6c055dd59a0ed25bc6bf00da4f0f6b1"
+    },
+    {
+      "path": "skills/pdf-runtime/SKILL.md",
+      "source_sha256": "afc4472ec4d625f703e9f414fe6814ce3cfa0ec51c7a07887fe587264c8b561e",
+      "export_sha256": "afc4472ec4d625f703e9f414fe6814ce3cfa0ec51c7a07887fe587264c8b561e"
+    },
+    {
+      "path": "skills/pdf-runtime/agents/openai.yaml",
+      "source_sha256": "74623eb0387951f4c6d0d02e6daf1c8a2dd449599c92a0edcafd12a2049c1a00",
+      "export_sha256": "74623eb0387951f4c6d0d02e6daf1c8a2dd449599c92a0edcafd12a2049c1a00"
+    },
+    {
+      "path": "skills/pdf-runtime/assets/file-document.png",
+      "source_sha256": "bbb3c29874cb3bc706eef9ba4436c7ef8ef33462a173c4c3d4deeec774e4da79",
+      "export_sha256": "bbb3c29874cb3bc706eef9ba4436c7ef8ef33462a173c4c3d4deeec774e4da79"
+    },
+    {
+      "path": "skills/pdf-runtime/container_tools/mark_artifact_operation_started.mjs",
+      "source_sha256": "e0578762dc2a8f44a26323062c8afcf6c72ef197649f349c8b40e9f2a03c8942",
+      "export_sha256": "e0578762dc2a8f44a26323062c8afcf6c72ef197649f349c8b40e9f2a03c8942"
+    },
+    {
+      "path": "skills/spreadsheets/SKILL.md",
+      "source_sha256": "655af692c745b9aab2fb06b8843b27de0099e9acebf28d67f3916d624c4a0f97",
+      "export_sha256": "655af692c745b9aab2fb06b8843b27de0099e9acebf28d67f3916d624c4a0f97"
+    },
+    {
+      "path": "skills/spreadsheets/agents/openai.yaml",
+      "source_sha256": "8dc6dfa3a1c6fd33ecb3088fe4d4e24689fc47685c43a9bac360fcee2af02a40",
+      "export_sha256": "8dc6dfa3a1c6fd33ecb3088fe4d4e24689fc47685c43a9bac360fcee2af02a40"
+    },
+    {
+      "path": "skills/spreadsheets/artifact_tool_docs/ADVANCED_API.md",
+      "source_sha256": "3dafc5f9013bc23e98f2b2bd8da1d87b138f951ed09ea3374b5aebeb17201495",
+      "export_sha256": "3dafc5f9013bc23e98f2b2bd8da1d87b138f951ed09ea3374b5aebeb17201495"
+    },
+    {
+      "path": "skills/spreadsheets/artifact_tool_docs/API_QUICK_START.md",
+      "source_sha256": "6073ddbf0d244d614f7974293aa7c622c0aa9a15ace6215e9f7a047a401b9c08",
+      "export_sha256": "6073ddbf0d244d614f7974293aa7c622c0aa9a15ace6215e9f7a047a401b9c08"
+    },
+    {
+      "path": "skills/spreadsheets/assets/file-spreadsheet.png",
+      "source_sha256": "3a1c5e6c52a1877942b8ef8654247fbe1c4a82f6df8ef464dc99983fc72cd6fb",
+      "export_sha256": "3a1c5e6c52a1877942b8ef8654247fbe1c4a82f6df8ef464dc99983fc72cd6fb"
+    },
+    {
+      "path": "skills/spreadsheets/container_tools/mark_artifact_operation_started.mjs",
+      "source_sha256": "20c5a86e596154c0541c7bfc4c52c17d928e22e27c6f0ff936c1c3fe16873c10",
+      "export_sha256": "20c5a86e596154c0541c7bfc4c52c17d928e22e27c6f0ff936c1c3fe16873c10"
+    },
+    {
+      "path": "skills/spreadsheets/domain_guidance/corporate_finance_fpa.md",
+      "source_sha256": "191bb704f01f2fb6b6fe075beda592632850fa194dbee5bab5d2dc3c739c6235",
+      "export_sha256": "191bb704f01f2fb6b6fe075beda592632850fa194dbee5bab5d2dc3c739c6235"
+    },
+    {
+      "path": "skills/spreadsheets/domain_guidance/financial_models.md",
+      "source_sha256": "72892297bda51e6c9a878b8986225304ab2840f2b734f9363bb300caa30c61af",
+      "export_sha256": "72892297bda51e6c9a878b8986225304ab2840f2b734f9363bb300caa30c61af"
+    },
+    {
+      "path": "skills/spreadsheets/domain_guidance/healthcare.md",
+      "source_sha256": "744d0fdae13b2e06e2707d6bef45893e692610dde34cd35c23e51ecf170675b4",
+      "export_sha256": "744d0fdae13b2e06e2707d6bef45893e692610dde34cd35c23e51ecf170675b4"
+    },
+    {
+      "path": "skills/spreadsheets/domain_guidance/marketing_advertising.md",
+      "source_sha256": "36363b1cbc40c16a6ba4c4b1c2b89b7d5f26ed33d6c5b50cd64b6fd8460409f3",
+      "export_sha256": "36363b1cbc40c16a6ba4c4b1c2b89b7d5f26ed33d6c5b50cd64b6fd8460409f3"
+    },
+    {
+      "path": "skills/spreadsheets/domain_guidance/scientific_research.md",
+      "source_sha256": "88332a585ae8f1ca32c0561655f83a7d12994cd5fe0bd0e63ab62d6eb3443cbf",
+      "export_sha256": "88332a585ae8f1ca32c0561655f83a7d12994cd5fe0bd0e63ab62d6eb3443cbf"
+    },
+    {
+      "path": "skills/spreadsheets/features/charts.md",
+      "source_sha256": "06511e5a513356656044aa255f2839848244ce4678a1de15af9122a0b72d76cb",
+      "export_sha256": "06511e5a513356656044aa255f2839848244ce4678a1de15af9122a0b72d76cb"
+    },
+    {
+      "path": "skills/spreadsheets/references/image-references.md",
+      "source_sha256": "148690f09a1f33a8d61a3f28df8b9c872a6bc16f0eaa2ea561bcc4dcd07bc2cc",
+      "export_sha256": "148690f09a1f33a8d61a3f28df8b9c872a6bc16f0eaa2ea561bcc4dcd07bc2cc"
+    },
+    {
+      "path": "skills/spreadsheets/references/read_only_qna.md",
+      "source_sha256": "09fb96fe7bdbdd5f9c8b47e021da0a8e2e19a28b8e0b94ce3a8dbfdb92c91f91",
+      "export_sha256": "09fb96fe7bdbdd5f9c8b47e021da0a8e2e19a28b8e0b94ce3a8dbfdb92c91f91"
+    },
+    {
+      "path": "skills/spreadsheets/references/template-elicitation.md",
+      "source_sha256": "78eb95ab8be1fb206f7caad7c3f372b41305eac6cefa308263d31d0f11038114",
+      "export_sha256": "78eb95ab8be1fb206f7caad7c3f372b41305eac6cefa308263d31d0f11038114"
+    },
+    {
+      "path": "skills/spreadsheets/routing/google_sheets.md",
+      "source_sha256": "0acafc1a346240b9346c08e67b69ab289286c80d93528583c085444407ffc428",
+      "export_sha256": "0acafc1a346240b9346c08e67b69ab289286c80d93528583c085444407ffc428"
+    },
+    {
+      "path": "skills/spreadsheets/style_guidelines.md",
+      "source_sha256": "9840cf52dd60f833390c66cd6d2b37b94e369b48edd2d9df05c23fb1ddce7e77",
+      "export_sha256": "9840cf52dd60f833390c66cd6d2b37b94e369b48edd2d9df05c23fb1ddce7e77"
+    },
+    {
+      "path": "skills/spreadsheets/workflows/create_workflows.md",
+      "source_sha256": "ef0221347b0e9ab2a7ae21403d4ec28886542db5ae18d51c7ef1d889ac1e50d6",
+      "export_sha256": "ef0221347b0e9ab2a7ae21403d4ec28886542db5ae18d51c7ef1d889ac1e50d6"
+    },
+    {
+      "path": "skills/spreadsheets/workflows/edit_workflows.md",
+      "source_sha256": "c65cc771835471bcb27eced7707a2130e045923a5e3adeb934b4edf9ecd59722",
+      "export_sha256": "c65cc771835471bcb27eced7707a2130e045923a5e3adeb934b4edf9ecd59722"
+    },
+    {
+      "path": "skills/youtube-conversation/SKILL.md",
+      "source_sha256": "0f238f3809cf4c7702c6595beebf0446a5f28e46037db4465c6537d1257428c5",
+      "export_sha256": "0f238f3809cf4c7702c6595beebf0446a5f28e46037db4465c6537d1257428c5"
+    },
+    {
+      "path": "skills/google-docs/SKILL.md",
+      "source_sha256": "8e5c26053d800e2980b74ab82c2ce95db94a17fbb443f8f6e30baeb442f1d464",
+      "export_sha256": "8e5c26053d800e2980b74ab82c2ce95db94a17fbb443f8f6e30baeb442f1d464"
+    },
+    {
+      "path": "skills/google-docs/agents/openai.yaml",
+      "source_sha256": "83ace90f66faceb0f66152b3f906b8f7b9b9a657093c39c4a28d3dca5ddcc25a",
+      "export_sha256": "83ace90f66faceb0f66152b3f906b8f7b9b9a657093c39c4a28d3dca5ddcc25a"
+    },
+    {
+      "path": "skills/google-docs/assets/google-docs-small.svg",
+      "source_sha256": "2a61baaef537798f02530bed0c41dc0b6fbf964134563f2811d1e0c6dec8304c",
+      "export_sha256": "2a61baaef537798f02530bed0c41dc0b6fbf964134563f2811d1e0c6dec8304c"
+    },
+    {
+      "path": "skills/google-docs/assets/google-docs.png",
+      "source_sha256": "b416735b10fb7bc27fe80f72007ef957486d7c29ae603083e137ca689d6920d5",
+      "export_sha256": "b416735b10fb7bc27fe80f72007ef957486d7c29ae603083e137ca689d6920d5"
+    },
+    {
+      "path": "skills/google-docs/host/docs-dropdown-executor.mjs",
+      "source_sha256": "97f002cca96055fc8ec5f1c032a89a2966ba2a0f96ca51567cf450ca66163b4a",
+      "export_sha256": "97f002cca96055fc8ec5f1c032a89a2966ba2a0f96ca51567cf450ca66163b4a"
+    },
+    {
+      "path": "skills/google-docs/host/docs-dropdown-file-bridge.mjs",
+      "source_sha256": "47cd11ae7872bf7cda18cd5e78e7229ba6485045585838c93b9265117f38b878",
+      "export_sha256": "47cd11ae7872bf7cda18cd5e78e7229ba6485045585838c93b9265117f38b878"
+    },
+    {
+      "path": "skills/google-docs/host/docs-stdin-receiver.pl",
+      "source_sha256": "a31a4a530ad61538385ce28d87d2be5c44810095df4de1ac6eed84628c492dd4",
+      "export_sha256": "a31a4a530ad61538385ce28d87d2be5c44810095df4de1ac6eed84628c492dd4"
+    },
+    {
+      "path": "skills/google-docs/host/docs-trusted-read-file-bridge.mjs",
+      "source_sha256": "8ee2b99c05d1adcdd4a4ab71c4f904dbf4bead9cd1c4daab2dd2644b37c3fbd4",
+      "export_sha256": "8ee2b99c05d1adcdd4a4ab71c4f904dbf4bead9cd1c4daab2dd2644b37c3fbd4"
+    },
+    {
+      "path": "skills/google-docs/host/docs-trusted-read-wrapper.mjs",
+      "source_sha256": "c7c1affe5fd3e37924f005c27aa0d6ffbc10e1d2d7ca8fb55d8f38f288ca2ead",
+      "export_sha256": "c7c1affe5fd3e37924f005c27aa0d6ffbc10e1d2d7ca8fb55d8f38f288ca2ead"
+    },
+    {
+      "path": "skills/google-docs/references/reference-citations-and-hyperlinks.md",
+      "source_sha256": "176945bec5f7b5875e3d096ed2a71947b4fc51779b65cb6018337e813c25b6af",
+      "export_sha256": "176945bec5f7b5875e3d096ed2a71947b4fc51779b65cb6018337e813c25b6af"
+    },
+    {
+      "path": "skills/google-docs/references/reference-connector-runtime-and-safety.md",
+      "source_sha256": "c77ab1262be6f74edc6c521a5079de422566c9ce4d776957ea04e820c30d414a",
+      "export_sha256": "c77ab1262be6f74edc6c521a5079de422566c9ce4d776957ea04e820c30d414a"
+    },
+    {
+      "path": "skills/google-docs/references/reference-direct-request-composition.md",
+      "source_sha256": "f4a5b9fe0be81930c982f9fa28d6cb6ed0c421d116cdd42da52f3586a339d2f8",
+      "export_sha256": "f4a5b9fe0be81930c982f9fa28d6cb6ed0c421d116cdd42da52f3586a339d2f8"
+    },
+    {
+      "path": "skills/google-docs/references/reference-dropdown-code-mode.md",
+      "source_sha256": "a5ceb032e30d966a62c34a7ee0a00f96ae2f3243e6fd11eb281794dfaa1c0397",
+      "export_sha256": "a5ceb032e30d966a62c34a7ee0a00f96ae2f3243e6fd11eb281794dfaa1c0397"
+    },
+    {
+      "path": "skills/google-docs/references/reference-figures-and-image-insertion.md",
+      "source_sha256": "079525400ca9a709dc78ca32edbec73ca50c1aa1858ac62082fdbd7fd1f4c3fc",
+      "export_sha256": "079525400ca9a709dc78ca32edbec73ca50c1aa1858ac62082fdbd7fd1f4c3fc"
+    },
+    {
+      "path": "skills/google-docs/references/reference-foreground-guard.md",
+      "source_sha256": "29311ede3744c97db5ca87ec36b991a12e785dde84d8dbdcbdc9b983cf9d614c",
+      "export_sha256": "29311ede3744c97db5ca87ec36b991a12e785dde84d8dbdcbdc9b983cf9d614c"
+    },
+    {
+      "path": "skills/google-docs/references/reference-headings-and-question-format.md",
+      "source_sha256": "970f1ca6c30e7db8cbb7afb74e7515ad79a12dfc5fc5acd18ad673dca8941ab7",
+      "export_sha256": "970f1ca6c30e7db8cbb7afb74e7515ad79a12dfc5fc5acd18ad673dca8941ab7"
+    },
+    {
+      "path": "skills/google-docs/references/reference-import-docx-to-native-docs.md",
+      "source_sha256": "75d396905976cbc38c162317d29ad76b4e1ca88a0695b993002beaf9a0553274",
+      "export_sha256": "75d396905976cbc38c162317d29ad76b4e1ca88a0695b993002beaf9a0553274"
+    },
+    {
+      "path": "skills/google-docs/references/reference-meeting-notes-direct.md",
+      "source_sha256": "aafb77df09868005862ea81af6734c8a6e28d25c92deba77fe524b3f0b656384",
+      "export_sha256": "aafb77df09868005862ea81af6734c8a6e28d25c92deba77fe524b3f0b656384"
+    },
+    {
+      "path": "skills/google-docs/references/reference-native-create-direct.md",
+      "source_sha256": "458f26ffc83cd168c2e38fd3216d47dcf817018596d69e7af80ba37efc7c4068",
+      "export_sha256": "458f26ffc83cd168c2e38fd3216d47dcf817018596d69e7af80ba37efc7c4068"
+    },
+    {
+      "path": "skills/google-docs/references/reference-pdf-export-visual-qa.md",
+      "source_sha256": "29bf6c64e1cd15ad0ea16d7d20297e0eed9d522575e5b3cf5d4a7f1fe507144c",
+      "export_sha256": "29bf6c64e1cd15ad0ea16d7d20297e0eed9d522575e5b3cf5d4a7f1fe507144c"
+    },
+    {
+      "path": "skills/google-docs/references/reference-request-shapes-and-write-safety.md",
+      "source_sha256": "f31053a6bdb33fa43aa718785c9ee7bfe33cd3bdd647ef8007bc4da75c53b712",
+      "export_sha256": "f31053a6bdb33fa43aa718785c9ee7bfe33cd3bdd647ef8007bc4da75c53b712"
+    },
+    {
+      "path": "skills/google-docs/references/reference-response-and-list-format.md",
+      "source_sha256": "d3696ea316bd2cf90ec32060a1f5f00f26d2420aacb91b91654d0552bf2cd723",
+      "export_sha256": "d3696ea316bd2cf90ec32060a1f5f00f26d2420aacb91b91654d0552bf2cd723"
+    },
+    {
+      "path": "skills/google-docs/references/reference-section-completeness-and-final-pass.md",
+      "source_sha256": "9629e4e744e51b355d9f3ea738d66831b9c4de2b690ca621ef0ee118c6f6bcfc",
+      "export_sha256": "9629e4e744e51b355d9f3ea738d66831b9c4de2b690ca621ef0ee118c6f6bcfc"
+    },
+    {
+      "path": "skills/google-docs/references/reference-smart-chips-and-building-blocks.md",
+      "source_sha256": "fb8e3d1fde87432b15010b37fa9e79c954c49bcd2acd597121ef242f425447d8",
+      "export_sha256": "fb8e3d1fde87432b15010b37fa9e79c954c49bcd2acd597121ef242f425447d8"
+    },
+    {
+      "path": "skills/google-docs/references/reference-table-formatting-deep-dive.md",
+      "source_sha256": "e810853ad7310704b3ba47ec2ad82e90091247ccc0edc41c67f2a2c9530d24be",
+      "export_sha256": "e810853ad7310704b3ba47ec2ad82e90091247ccc0edc41c67f2a2c9530d24be"
+    },
+    {
+      "path": "skills/google-docs/references/reference-template-preservation-and-edit-scope.md",
+      "source_sha256": "87552b6699db28a47a2fef5c00bf4d26a99fa7676d6f1dfdd9799653f4605c66",
+      "export_sha256": "87552b6699db28a47a2fef5c00bf4d26a99fa7676d6f1dfdd9799653f4605c66"
+    },
+    {
+      "path": "skills/google-docs/references/reference-trusted-read-wrapper.md",
+      "source_sha256": "5908da48d2b09619c3741f11bcca35ba061ee48055fcc2349ffd423059939c6b",
+      "export_sha256": "5908da48d2b09619c3741f11bcca35ba061ee48055fcc2349ffd423059939c6b"
+    },
+    {
+      "path": "skills/google-docs/runtime/docs-read-normalizer.mjs",
+      "source_sha256": "324de06dedc0476c91f7f3d2fe4b15c4cb992ace2afb9e57df498a994020878a",
+      "export_sha256": "324de06dedc0476c91f7f3d2fe4b15c4cb992ace2afb9e57df498a994020878a"
+    },
+    {
+      "path": "skills/google-docs/runtime/dropdown-common.mjs",
+      "source_sha256": "f845319bd56c8bf07f74cc62cfdf10421d58464f0effccf8a720319b091cfba7",
+      "export_sha256": "f845319bd56c8bf07f74cc62cfdf10421d58464f0effccf8a720319b091cfba7"
+    },
+    {
+      "path": "skills/google-docs/runtime/dropdown-contract.mjs",
+      "source_sha256": "2894e9b9ea6304be097e0f8c67e96e7e9bd9a7181c38b95dabd6056cb8197536",
+      "export_sha256": "2894e9b9ea6304be097e0f8c67e96e7e9bd9a7181c38b95dabd6056cb8197536"
+    },
+    {
+      "path": "skills/google-docs/runtime/dropdown-inventory.mjs",
+      "source_sha256": "5d4229fc4e37c21921a9e749c07239a9dab36e00c4f6b57baaa8466af4130043",
+      "export_sha256": "5d4229fc4e37c21921a9e749c07239a9dab36e00c4f6b57baaa8466af4130043"
+    },
+    {
+      "path": "skills/google-docs/runtime/dropdown-plan.mjs",
+      "source_sha256": "92d39533dd1c908699b5db941f170543bcfccaa8eb8ced7a5d5d332a6d8f8939",
+      "export_sha256": "92d39533dd1c908699b5db941f170543bcfccaa8eb8ced7a5d5d332a6d8f8939"
+    },
+    {
+      "path": "skills/google-docs/runtime/dropdown-routing.mjs",
+      "source_sha256": "2f1ca983fa3a8e21312e4fcad392c8dabd443d3720706fac8239e3dab0b4f8dc",
+      "export_sha256": "2f1ca983fa3a8e21312e4fcad392c8dabd443d3720706fac8239e3dab0b4f8dc"
+    },
+    {
+      "path": "skills/google-docs/scripts/build_docs_dropdown_inventory.mjs",
+      "source_sha256": "f7e08ad9aa36373043ff1b36fb81e1721b922b0ca6b44a9cb5ee5287535279e1",
+      "export_sha256": "f7e08ad9aa36373043ff1b36fb81e1721b922b0ca6b44a9cb5ee5287535279e1"
+    },
+    {
+      "path": "skills/google-docs/scripts/canonicalize_google_workspace_url.mjs",
+      "source_sha256": "e439d12ad25f60049c15d8bbfabb9e29fa6b3233c42e653006049127414c2521",
+      "export_sha256": "e439d12ad25f60049c15d8bbfabb9e29fa6b3233c42e653006049127414c2521"
+    },
+    {
+      "path": "skills/google-docs/scripts/create_docs_dropdown_execution_context.mjs",
+      "source_sha256": "cf8c99d6d2d40409ab36ccebbcc7c54a010178d7bf41e12f52cc12cc96f99ed5",
+      "export_sha256": "cf8c99d6d2d40409ab36ccebbcc7c54a010178d7bf41e12f52cc12cc96f99ed5"
+    },
+    {
+      "path": "skills/google-docs/scripts/freeze_docs_dropdown_contract.mjs",
+      "source_sha256": "bb0fe83d265f2db2eb47302514eebb7fca1b844d4be247e63640ffda6dd6e154",
+      "export_sha256": "bb0fe83d265f2db2eb47302514eebb7fca1b844d4be247e63640ffda6dd6e154"
+    },
+    {
+      "path": "skills/google-docs/scripts/validate_docs_dropdown_plan.mjs",
+      "source_sha256": "1ab562784f52c3aefec0858b5134e5efa0ec7b79b129b9e338576c068e6afdaa",
+      "export_sha256": "1ab562784f52c3aefec0858b5134e5efa0ec7b79b129b9e338576c068e6afdaa"
+    },
+    {
+      "path": "skills/google-drive/SKILL.md",
+      "source_sha256": "dabae8a192c861b76cf7b5742bdf14f8ed35e67d8e6cacfd5f746ffbefd6da5c",
+      "export_sha256": "dabae8a192c861b76cf7b5742bdf14f8ed35e67d8e6cacfd5f746ffbefd6da5c"
+    },
+    {
+      "path": "skills/google-drive/agents/openai.yaml",
+      "source_sha256": "c78a0cff8b8127845b3626ad2fe285ba2333268c5252b124eb3e2ddaa22ba2fb",
+      "export_sha256": "c78a0cff8b8127845b3626ad2fe285ba2333268c5252b124eb3e2ddaa22ba2fb"
+    },
+    {
+      "path": "skills/google-drive/assets/app-icon.png",
+      "source_sha256": "a0da54a5f966e876668ab59d8df987ddad1328846216578356e6c10b07791f6c",
+      "export_sha256": "a0da54a5f966e876668ab59d8df987ddad1328846216578356e6c10b07791f6c"
+    },
+    {
+      "path": "skills/google-drive/assets/google-drive-small.svg",
+      "source_sha256": "5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021",
+      "export_sha256": "5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021"
+    },
+    {
+      "path": "skills/google-drive/assets/google-drive.png",
+      "source_sha256": "a0da54a5f966e876668ab59d8df987ddad1328846216578356e6c10b07791f6c",
+      "export_sha256": "a0da54a5f966e876668ab59d8df987ddad1328846216578356e6c10b07791f6c"
+    },
+    {
+      "path": "skills/google-drive/assets/google-drive.svg",
+      "source_sha256": "5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021",
+      "export_sha256": "5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021"
+    },
+    {
+      "path": "skills/google-drive/references/slides/chart-refresh-workflows.md",
+      "source_sha256": "0ddbd940cfbd379bef232fc01e628ef02a3b7c2182e7d6983d281199b651f600",
+      "export_sha256": "0ddbd940cfbd379bef232fc01e628ef02a3b7c2182e7d6983d281199b651f600"
+    },
+    {
+      "path": "skills/google-drive/references/slides/deck-scope-verification.md",
+      "source_sha256": "7fa958f5dd4e7575857c5e1ff8761646f650694a3bc3cc8ed302943332452c3d",
+      "export_sha256": "7fa958f5dd4e7575857c5e1ff8761646f650694a3bc3cc8ed302943332452c3d"
+    },
+    {
+      "path": "skills/google-drive/references/slides/sheets-chart-replacement.md",
+      "source_sha256": "601d323942d4a944d8ec84cb8be149ec1d1865ab33ede91bf25d3ca6da3a978a",
+      "export_sha256": "601d323942d4a944d8ec84cb8be149ec1d1865ab33ede91bf25d3ca6da3a978a"
+    },
+    {
+      "path": "skills/google-drive/references/slides/visual-change-loop.md",
+      "source_sha256": "6ab9b64580fe2dcc9def5535de9f549a4728eae26d447fb1d7ba479d04bd25eb",
+      "export_sha256": "6ab9b64580fe2dcc9def5535de9f549a4728eae26d447fb1d7ba479d04bd25eb"
+    },
+    {
+      "path": "skills/google-drive-comments/SKILL.md",
+      "source_sha256": "a3077375a8f7558b9e052c98047747b8a4a1a90a9a90b552009c28fcdadfe94a",
+      "export_sha256": "a3077375a8f7558b9e052c98047747b8a4a1a90a9a90b552009c28fcdadfe94a"
+    },
+    {
+      "path": "skills/google-drive-comments/agents/openai.yaml",
+      "source_sha256": "bda6a87d79d64d386334a79d4dc93963fd8053c2c8af7c8632c16a1df6db295c",
+      "export_sha256": "bda6a87d79d64d386334a79d4dc93963fd8053c2c8af7c8632c16a1df6db295c"
+    },
+    {
+      "path": "skills/google-sheets/SKILL.md",
+      "source_sha256": "54d160c27532e4ff610e9c5a7870fb80dc496b2d1d3f302996c21c505419c862",
+      "export_sha256": "54d160c27532e4ff610e9c5a7870fb80dc496b2d1d3f302996c21c505419c862"
+    },
+    {
+      "path": "skills/google-sheets/agents/openai.yaml",
+      "source_sha256": "4d55928fc0f63aae133f8c00219e3fd7dfdd3a49ef457ceec6bcf0f014ffae00",
+      "export_sha256": "4d55928fc0f63aae133f8c00219e3fd7dfdd3a49ef457ceec6bcf0f014ffae00"
+    },
+    {
+      "path": "skills/google-sheets/assets/google-sheets-small.svg",
+      "source_sha256": "502b9fcfb51a6345d03db408b36be40676ee1483a4efa24a2751ad65128c4945",
+      "export_sha256": "502b9fcfb51a6345d03db408b36be40676ee1483a4efa24a2751ad65128c4945"
+    },
+    {
+      "path": "skills/google-sheets/assets/google-sheets.png",
+      "source_sha256": "e3775513bef981e135ed001ee82be2381e04c6361093628628360b565635e4fe",
+      "export_sha256": "e3775513bef981e135ed001ee82be2381e04c6361093628628360b565635e4fe"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-batch-update-recipes.md",
+      "source_sha256": "18e645b4f05f4f399ceff0c2ee62501a38609709b087e7140457eef2c60c8e9e",
+      "export_sha256": "18e645b4f05f4f399ceff0c2ee62501a38609709b087e7140457eef2c60c8e9e"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-chart-recipes.md",
+      "source_sha256": "f8428db55e2cddee66bf1bf7ced1cbeff75b06893f1477bf175af56bb2026eac",
+      "export_sha256": "f8428db55e2cddee66bf1bf7ced1cbeff75b06893f1477bf175af56bb2026eac"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-edit-workflow.md",
+      "source_sha256": "66c6845a16547d65ac3eaf2ae8b7762fb534f2acfb5700716827b21cff9b149a",
+      "export_sha256": "66c6845a16547d65ac3eaf2ae8b7762fb534f2acfb5700716827b21cff9b149a"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-formula-patterns.md",
+      "source_sha256": "749791a220c1e1ab18f99c0f0be56de106e9e4701d28b82385b673c8f9d1cc56",
+      "export_sha256": "749791a220c1e1ab18f99c0f0be56de106e9e4701d28b82385b673c8f9d1cc56"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-import-spreadsheet-to-native-sheets.md",
+      "source_sha256": "8cbe578b2fa55f1276b16c4bcc343928d9afd3dfc6934e6a02fe9cb4a35c61ed",
+      "export_sha256": "8cbe578b2fa55f1276b16c4bcc343928d9afd3dfc6934e6a02fe9cb4a35c61ed"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-live-read-search-safety.md",
+      "source_sha256": "bd13045e10fd7f8cb5389512ead5dc3482aa04ba328cd95da87a9a09d0b3c981",
+      "export_sha256": "bd13045e10fd7f8cb5389512ead5dc3482aa04ba328cd95da87a9a09d0b3c981"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-native-cell-structure.md",
+      "source_sha256": "989e30e41ec064712b45966dd88aea8613631653fa981559038d4e0549338e47",
+      "export_sha256": "989e30e41ec064712b45966dd88aea8613631653fa981559038d4e0549338e47"
+    },
+    {
+      "path": "skills/google-sheets/references/reference-visual-quality.md",
+      "source_sha256": "869601926708d005d8a9ce7e2ebac859bd31d54d42150b0b8d6f1f2d01b93129",
+      "export_sha256": "869601926708d005d8a9ce7e2ebac859bd31d54d42150b0b8d6f1f2d01b93129"
+    },
+    {
+      "path": "skills/google-sheets/references/style-profiles.md",
+      "source_sha256": "a3afa692e57bb2bcd91aa3ea540147fc0789ce576215d587b2ee55df30e32c65",
+      "export_sha256": "a3afa692e57bb2bcd91aa3ea540147fc0789ce576215d587b2ee55df30e32c65"
+    },
+    {
+      "path": "skills/google-slides/SKILL.md",
+      "source_sha256": "fd14974d7c4ea9ff134bcc21cd32b2b1d61eeaa77c6dc757075b07eef6bedbdb",
+      "export_sha256": "fd14974d7c4ea9ff134bcc21cd32b2b1d61eeaa77c6dc757075b07eef6bedbdb"
+    },
+    {
+      "path": "skills/google-slides/agents/openai.yaml",
+      "source_sha256": "c93b66486cc6df212d2eb3fabb57a3495eba07e3ae900612c3c72a1cb2315605",
+      "export_sha256": "c93b66486cc6df212d2eb3fabb57a3495eba07e3ae900612c3c72a1cb2315605"
+    },
+    {
+      "path": "skills/google-slides/assets/google-slides-small.svg",
+      "source_sha256": "702cb4708c85d38833f075bfbd2870e5cf07f934b2a06124e57a00eafe68b486",
+      "export_sha256": "702cb4708c85d38833f075bfbd2870e5cf07f934b2a06124e57a00eafe68b486"
+    },
+    {
+      "path": "skills/google-slides/assets/google-slides.png",
+      "source_sha256": "b9e27de164f75478c181d2f2804b259f96bcd2d28b8af4328f94ab20dd0cd71d",
+      "export_sha256": "b9e27de164f75478c181d2f2804b259f96bcd2d28b8af4328f94ab20dd0cd71d"
+    },
+    {
+      "path": "skills/google-slides/host/export-and-render-slides.mjs",
+      "source_sha256": "43d2436482267426bd48ec20e11787b7c2f84e72adde26e2fee2d1a121aecec4",
+      "export_sha256": "43d2436482267426bd48ec20e11787b7c2f84e72adde26e2fee2d1a121aecec4"
+    },
+    {
+      "path": "skills/google-slides/host/export-and-render-slides.test.mjs",
+      "source_sha256": "6bc4c07cde3183bd40495a1d985862b432f3e5c1f110d2b309ea803096034ce8",
+      "export_sha256": "6bc4c07cde3183bd40495a1d985862b432f3e5c1f110d2b309ea803096034ce8"
+    },
+    {
+      "path": "skills/google-slides/host/read-template-to-file.mjs",
+      "source_sha256": "bdeb61186088aab091f2f8c5330449a6aa5e9e3a1e1abbfc0cf132dfc8b27484",
+      "export_sha256": "bdeb61186088aab091f2f8c5330449a6aa5e9e3a1e1abbfc0cf132dfc8b27484"
+    },
+    {
+      "path": "skills/google-slides/host/slides-stdin-receiver.pl",
+      "source_sha256": "95d9f2fffd6b1eb02292f574370f6424df8daa45969ad1b5f0e617679e39159f",
+      "export_sha256": "95d9f2fffd6b1eb02292f574370f6424df8daa45969ad1b5f0e617679e39159f"
+    },
+    {
+      "path": "skills/google-slides/runtime/common.mjs",
+      "source_sha256": "da0497e25983d4cea67f0f588f213d9f587c7f6a865dee28e9d24a7e76b7733e",
+      "export_sha256": "da0497e25983d4cea67f0f588f213d9f587c7f6a865dee28e9d24a7e76b7733e"
+    },
+    {
+      "path": "skills/google-slides/runtime/design-system.mjs",
+      "source_sha256": "4e393f1486c2e7209fc833fdd2fca4a2094ab3b0ff4e5ce20a83612b441cf0fb",
+      "export_sha256": "4e393f1486c2e7209fc833fdd2fca4a2094ab3b0ff4e5ce20a83612b441cf0fb"
+    },
+    {
+      "path": "skills/google-slides/runtime/media-geometry.mjs",
+      "source_sha256": "4d0930a9d2bec3ed29f10a19c430a319dc450bc087c96dbb47239cd5171666b6",
+      "export_sha256": "4d0930a9d2bec3ed29f10a19c430a319dc450bc087c96dbb47239cd5171666b6"
+    },
+    {
+      "path": "skills/google-slides/runtime/normalize.mjs",
+      "source_sha256": "3b7f5267f61335410b5aeccca75271b7a810e4306ef9edc5e28a3b7be2d0d8fa",
+      "export_sha256": "3b7f5267f61335410b5aeccca75271b7a810e4306ef9edc5e28a3b7be2d0d8fa"
+    },
+    {
+      "path": "skills/google-slides/runtime/output-issues.mjs",
+      "source_sha256": "45f8a2f8c70c5356b050ba84c1c0a7e3d4b7b421db3929c99af73037d6d3198d",
+      "export_sha256": "45f8a2f8c70c5356b050ba84c1c0a7e3d4b7b421db3929c99af73037d6d3198d"
+    },
+    {
+      "path": "skills/google-slides/runtime/result.mjs",
+      "source_sha256": "1c516fac28909b0c5f98b07a2cd9378885e9838182a9a0b907b5188c8324eb7e",
+      "export_sha256": "1c516fac28909b0c5f98b07a2cd9378885e9838182a9a0b907b5188c8324eb7e"
+    },
+    {
+      "path": "skills/google-slides/scripts/check_output_issues.mjs",
+      "source_sha256": "095179a53e10edaaeb1381e7a4a24c1b461c1c61e245b9e707881c8de6a85b9c",
+      "export_sha256": "095179a53e10edaaeb1381e7a4a24c1b461c1c61e245b9e707881c8de6a85b9c"
+    },
+    {
+      "path": "skills/google-slides/scripts/parse_template_design_system.mjs",
+      "source_sha256": "5985a2fba34d769e7839a90fba7745b070d82773b8da4a2e1a77213c70e4c914",
+      "export_sha256": "5985a2fba34d769e7839a90fba7745b070d82773b8da4a2e1a77213c70e4c914"
+    }
+  ],
+  "modifications": [
+    {
+      "path": "skills/print/SKILL.md",
+      "reason": "Portable relative references to copied skills"
+    },
+    {
+      "path": "skills/text/SKILL.md",
+      "reason": "Portable relative references to copied skills"
+    },
+    {
+      "path": "skills/print/tests/test_type_text.py",
+      "reason": "Update obsolete Cyrillic assertions for the current one-character clipboard implementation; script is unchanged"
+    },
+    {
+      "path": "skills/print/SKILL.md",
+      "reason": "Document existing optional focus/click/end flags and actual clipboard input behavior"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "documents",
+      "reason": "The bundled LICENSE.txt explicitly prohibits extracting and retaining copies outside the service; install the official documents plugin instead."
+    },
+    {
+      "name": "historic school automation",
+      "reason": "Original files were deleted; confirmed by the existing cleanup manifest and current filesystem checks. No original implementation was fabricated."
+    },
+    {
+      "name": "personal school artifacts and authentication",
+      "reason": "Assignment files, grades, private databases, screenshots, credentials and browser profiles are outside this export scope."
+    }
+  ],
+  "project_files": [
+    ".env.example",
+    ".gitignore",
+    "AGENTS.md",
+    "README.md",
+    "config/classroom.json",
+    "docs/export-limits.md",
+    "docs/workflow.md",
+    "scripts/next_screenshot_name.py",
+    "scripts/validate_bundle.py",
+    "skills/classroom-workflow/SKILL.md",
+    "third_party/google-drive.json",
+    "third_party/pdf-runtime.json",
+    "third_party/presentations.json",
+    "third_party/spreadsheets.json",
+    "third_party/youtube-conversation.json",
+    "third_party/MIT-OpenAI.txt"
+  ]
+}

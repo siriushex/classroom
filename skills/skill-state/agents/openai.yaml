@@ -1,0 +1,6 @@
+interface:
+  display_name: "SKILL.state Native"
+  short_description: "Reliable checkpoints for long Codex tasks"
+  default_prompt: "Use $skill-state to continue this task with compact, evidence-backed checkpoints and normal Codex tools."
+policy:
+  allow_implicit_invocation: true

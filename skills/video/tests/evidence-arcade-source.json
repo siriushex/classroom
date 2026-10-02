@@ -1,0 +1,106 @@
+{
+  "status": "review",
+  "file": "/Volumes/m2/CodexWorkspace/Projects/Documents/New project/deliverables/chess-arcade-ad-20261001/project/public/arcade.mp4",
+  "sha256": "27a2777e4a74d4e21eb5923fb799699b26c3007bb3f9101cfd9f06605b284b1a",
+  "checked_at": "2026-10-02T06:13:41.410348+00:00",
+  "video": {
+    "duration": 14.833333,
+    "fps": 30.0,
+    "width": 1136,
+    "height": 1136,
+    "frames": 445,
+    "codec": "h264",
+    "pixel_format": "yuvj420p"
+  },
+  "audio_streams": 0,
+  "full_decode": true,
+  "measurements": {
+    "max_frame_interval": 0.033334000000000086,
+    "median_frame_interval": 0.03333300000000072,
+    "near_identical_frame_pairs": 401,
+    "max_adjacent_pixel_delta": 3.1454475308641974
+  },
+  "failures": [],
+  "review_flags": [
+    {
+      "kind": "freeze",
+      "span": [
+        0.6,
+        1.833333
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        2.3,
+        2.866666
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        2.9,
+        4.233333
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        4.8,
+        6.0
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        6.466667,
+        7.666666
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        8.233333,
+        9.566666
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        10.3,
+        11.333333
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        11.9,
+        13.2
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    },
+    {
+      "kind": "freeze",
+      "span": [
+        13.7,
+        14.833333
+      ],
+      "note": "May be intentional; inspect motion inside the shot"
+    }
+  ],
+  "visual_review_complete": false,
+  "manual_checks": [
+    "Rendered text/fonts/localization/safe area",
+    "Camera and object continuity at every cut",
+    "Music and action sync",
+    "Art direction, readability and authenticity of game assets"
+  ],
+  "limits": "Downsampled grayscale heuristics do not prove smoothness, detect all local layout jumps, verify speech timing or OCR titles"
+}
