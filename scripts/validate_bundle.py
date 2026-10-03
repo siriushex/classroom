@@ -52,6 +52,17 @@ def main():
     for entry in inventory["skills"]:
         if not (ROOT / "skills" / entry["name"] / "SKILL.md").is_file():
             errors.append(entry["name"] + ": skill entry point missing")
+    for rel in inventory["project_files"]:
+        if not (ROOT / rel).is_file():
+            errors.append(rel + ": project file missing")
+    subject_index = ROOT / config["subject_guides"]["index"]
+    if subject_index.is_file():
+        links = set(re.findall(r"\]\(([-a-z]+\.md)\)", subject_index.read_text(encoding="utf-8")))
+        guides = {p.name for p in subject_index.parent.glob("*.md") if p != subject_index}
+        if links != guides:
+            errors.append("docs/subjects: index links do not match guide files")
+    else:
+        errors.append("docs/subjects: subject index missing")
     print(json.dumps({"ok": not errors, "counts": count, "errors": errors}, ensure_ascii=False, indent=2))
     return 1 if errors else 0
 

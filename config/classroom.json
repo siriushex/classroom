@@ -4,6 +4,12 @@
   "preserve_questions": true,
   "copy_when_read_only": true,
   "separate_document_per_assignment_when_needed": true,
+  "subject_guides": {
+    "index": "docs/subjects/index.md",
+    "selection": "assignment_topic_then_course",
+    "apply_multiple_when_assignment_spans_subjects": true,
+    "fallback": "general_rules"
+  },
   "text": {
     "language": "assignment_language",
     "ukrainian_register": "literary",
