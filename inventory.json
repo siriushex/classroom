@@ -1437,6 +1437,8 @@
     "third_party/presentations.json",
     "third_party/spreadsheets.json",
     "third_party/youtube-conversation.json",
-    "third_party/MIT-OpenAI.txt"
+    "third_party/MIT-OpenAI.txt",
+    "docs/AGENTS.example.md",
+    "docs/codex-setup.md"
   ]
 }
