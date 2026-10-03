@@ -31,6 +31,13 @@
     "verify_after_each_answer": true,
     "current_user_instruction_overrides_method": true
   },
+  "browser_tabs": {
+    "close_unused_after_assignment": true,
+    "only_codex_opened": true,
+    "after_saved_result_verified": true,
+    "preserve_user_tabs": true,
+    "preserve_unsaved_or_needed_tabs": true
+  },
   "screenshots": {
     "directory": "~/Downloads",
     "filename_pattern": "test{n}.png",
